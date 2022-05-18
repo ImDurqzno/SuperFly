@@ -73,5 +73,6 @@ public class FlyCommand implements CommandExecutor {
             b.setFlying(true);
             b.setAllowFlight(true);
         }
+        return false;
     }
 }
