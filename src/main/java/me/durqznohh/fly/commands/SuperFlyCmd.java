@@ -35,22 +35,21 @@ public class SuperFlyCmd implements CommandExecutor {
             player.sendMessage(CC.translate("&7                                      "));
             player.sendMessage(CC.translate("&e======================================"));
 
-            if(!(player.hasPermission("superfly.admin"))) {
-                player.sendMessage(CC.translate(main.getConfig().getString("No-Perms")));
-            }
+            if(player.hasPermission("superfly.admin")) {
+                if(args.length == 1) {
+                    if (args[0].equalsIgnoreCase("admin")) {
+                        ((Player)  sender).sendMessage(CC.translate("&cAdmin commands: /fly [user] & /superfly reload"));
+                    }
+                }
+                if (args.length == 2) {
+                    if (args[0].equalsIgnoreCase("reload")) {
+                        ((Player) sender).sendMessage(CC.translate(main.getConfig().getString("Reload")));
+                        main.reloadConfig();
+                    }
 
-            if(args.length == 1) {
-                if (args[0].equalsIgnoreCase("admin")) {
-                    ((Player)  sender).sendMessage(CC.translate("&cAdmin commands: /fly [user] & /superfly reload"));
                 }
             }
-            if (args.length == 2) {
-                if (args[0].equalsIgnoreCase("reload")) {
-                    ((Player) sender).sendMessage(CC.translate(main.getConfig().getString("Reload")));
-                    main.reloadConfig();
-                }
-
-            }
+            
 
         }
 
