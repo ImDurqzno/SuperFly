@@ -8,7 +8,8 @@
 Fly-Enabled: "&8» &fFly mode &aenabled."
 Fly-Disabled: "&8» &fFly mode &cdisabled."
 Fly-Enabled-Others: "&8» &fFly mode enabled for {player}"
-FLy-Disabled-Others: "&8» &fFly mode disabled for {player}"
+Fly-Disabled-Others: "&8» &fFly mode disabled for {player}"
+PlayerNotExist: "&» &cThe player {arg} not exist"
 No-perms: "&8» You can't use this command"
 Reload: "&aConfig reloaded."
 #
