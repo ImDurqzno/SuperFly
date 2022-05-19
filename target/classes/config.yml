@@ -1,18 +1,16 @@
-#====================================================#
-#                                                    #
-#   $$$$$$$$$$$$$$   $$               $$        $$   #
-#   $$               $$                $$      $$    #
-#   $$               $$                 $$    $$     ========================================
-#   $$               $$                  $$  $$      =       Plugin made with love          =
-#   $$$$$$$$$$$      $$                    $$        =            by: Durqznohh             =
-#   $$               $$                    $$        =                  <3                  =
-#   $$               $$                    $$        ========================================
-#   $$               $$                    $$        #
-#   $$               $$$$$$$$$$$$$         $$        #
-#                                                    #
-#====================================================#
+#-----------------------------------------------------------------------------------------------#
+#                                                                                               #
+#           Any bug report it on my discord or on the plugin page:                              #
+# Durqznohh#4718 or https://spigotmc.org/resources/superfly-the-best-fly-plugin-beta.100662/    #
+#                                                                                               #
+#-----------------------------------------------------------------------------------------------#
 #
-#
-#
+Fly-Enabled: "&8» &fFly mode &aenabled."
+Fly-Disabled: "&8» &fFly mode &cdisabled."
+Fly-Enabled-Others: "&8» &fFly mode enabled for {player}"
+Fly-Disabled-Others: "&8» &fFly mode disabled for {player}"
+PlayerNotExist: "&» &cThe player {arg} not exist"
+No-perms: "&8» You can't use this command"
+Reload: "&aConfig reloaded."
 #
 #

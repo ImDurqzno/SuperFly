@@ -1,9 +1,7 @@
 name: SuperFly
-version: '1.0'
-main: com.durqznohh.superfly
+version: 1.0.0
+main: me.durqznohh.fly
 api-version: 1.18
-authors: [ Durqznohh ]
-description: The best plugin for Fly
 commands:
   fly:
     description: Enable or disable fly mode.
