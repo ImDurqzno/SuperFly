@@ -1,7 +1,7 @@
 package me.durqznohh.fly.commands;
 
 
-import me.durqznohh.fly.Main;
+import me.durqznohh.fly.SuperFly;
 import me.durqznohh.fly.utils.CC;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -10,7 +10,7 @@ import org.bukkit.entity.Player;
 
 public class SuperFlyCmd implements CommandExecutor {
 
-    private Main main;
+    private SuperFly main;
 
     public SuperFlyCmd() {
         this.main = main;
@@ -49,7 +49,7 @@ public class SuperFlyCmd implements CommandExecutor {
 
                 }
             }
-            
+
 
         }
 

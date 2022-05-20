@@ -1,6 +1,6 @@
 package me.durqznohh.fly.commands;
 
-import me.durqznohh.fly.Main;
+import me.durqznohh.fly.SuperFly;
 import me.durqznohh.fly.utils.CC;
 import org.bukkit.Bukkit;
 import org.bukkit.Sound;
@@ -12,7 +12,7 @@ import org.bukkit.entity.Player;
 
 public class FlyCommand implements CommandExecutor {
 
-    private Main main;
+    private SuperFly main;
 
     public FlyCommand() {
         this.main = main;
