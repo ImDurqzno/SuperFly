@@ -1,9 +1,0 @@
-name: SuperFly
-version: 1.0.1
-main: me.durqznohh.fly.SuperFly
-api-version: 1.18
-commands:
-  fly:
-    description: Enable or disable fly mode.
-  superfly:
-    description: Displays all commands.
